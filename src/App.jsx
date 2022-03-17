@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
+
+// import Section1_Header from 'components/principal/Section1_Header/Section1_Header.jsx'
+// import Section2_AboutUs from 'components/principal/Section2_AboutUs/Section2_AboutUs.jsx'
+// import Section3_OurWork from 'components/principal/Section3_OurWork/Section3_OurWork.jsx'
+// import Section4_Contact from 'components/principal/Section4_Contact/Section4_Contact.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,37 +15,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
+        <div className='container'>
+          <h5>Element.Corp</h5>
+          <h1>Page Services</h1>
+          <div className='socials'>
+            <a href='https://www.linkedin.com/in/vadith-gomez-21808a223/' target='_blank' rel='noreferrer'><BsLinkedin /> </a>
+            <a href='https://github.com/lvadithe' target='_blank' rel='noreferrer'><FaGithub /> </a>
+          </div>
+          <div className='socials'>
+            <a href='https://www.linkedin.com/in/gonzalo-muñoz-arg/' target='_blank' rel='noreferrer'><BsLinkedin /> </a>
+            <a href='https://github.com/M-Gonzalo' target='_blank' rel='noreferrer'><FaGithub /> </a>
+          </div>
+        </div>
+      </header >
+    </div >
   )
 }
 
