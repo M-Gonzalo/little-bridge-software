@@ -3,7 +3,7 @@ import './Section1_Header.module.css'
 
 function Section1_Header() {
     return (
-        <header id='header'>
+        <header id='Section1_Header'>
             <div className="container header_container">
                 <h1>Nebulae Software Solutions</h1>
                 <h3>
@@ -12,6 +12,8 @@ function Section1_Header() {
                     optio deleniti nostrum quas recusandae dolor quaerat porro,
                     non blanditiis explicabo? Distinctio, aliquid.
                 </h3>
+
+                <a href="#Section4_Contact" className='scroll_down'>Scroll Down</a>
             </div>
         </header>
     )
