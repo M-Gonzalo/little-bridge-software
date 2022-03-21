@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa'
 
 // import Section1_Header from 'components/principal/Section1_Header/Section1_Header.jsx'
 // import Section2_AboutUs from 'components/principal/Section2_AboutUs/Section2_AboutUs.jsx'
-// import Section3_OurWork from 'components/principal/Section3_OurWork/Section3_OurWork.jsx'
+import OurWork from './components/principal/Section3_OurWork/Section3_OurWork.jsx'
 // import Section4_Contact from 'components/principal/Section4_Contact/Section4_Contact.jsx'
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <OurWork />
       <header className="App-header">
         <div className='container'>
           <h5>Element.Corp</h5>
