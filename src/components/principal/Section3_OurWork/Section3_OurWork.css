@@ -1,0 +1,41 @@
+.section3-ourwork-content-container {
+  /* CSS grid. This is a cards component */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 20px;
+  grid-auto-flow: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section3-ourwork-content-container-item {
+  /* card */
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+.section3-ourwork-content-container-item-image {
+  /* image */
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.section3-ourwork-content-container-item-title {
+  /* card title */
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: fit-content;
+}
