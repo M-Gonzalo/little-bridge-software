@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdOutlineMail } from 'react-icons/md'
-import './Section4_Contact.module.css'
+import { FaTelegram } from 'react-icons/fa'
+import './Section4_Contact.css'
 
 function Section4_Contact() {
     return (
@@ -9,19 +10,26 @@ function Section4_Contact() {
             <h2>Contact</h2>
 
             <div className="container contact__container">
-                <div className="contact_options">
+                <div className="contact__options">
                     <article className='contact__option'>
-                        <MdOutlineMail className='contact__option-icon' />
-                        <h4>Email</h4>
-                        <h5>nebulae.solutions.lat@gmail.com</h5>
-                        <a href='mailto:nebulae.solutions.lat@gmail.com'>Send a message</a>
+                        <a href='mailto:nebulae.solutions.lat@gmail.com' target='_blanck'>
+                            <MdOutlineMail className='contact__option-icon' />
+                            <h4>Email</h4>
+                            Send a message
+                        </a>
+                    </article>
+                    <article className='contact__option'>
+                        <a href='https://t.me/gonza_mz' target='_blanck'>
+                            <FaTelegram className='contact__option-icon' />
+                            <h4>Telegram</h4>
+                        </a>
                     </article>
                 </div>
                 <form action="">
                     <input type="text" name='name' placeholder='Your Full Name' />
                     <input type="text" name='email' placeholder='Your Email' />
                     <input type="text" name='message' placeholder='Your Message' />
-                    <button type='submit' >Send Message</button>
+                    <button type='submit' className='btn btn-primary' >Send Message</button>
                 </form>
             </div>
         </section >

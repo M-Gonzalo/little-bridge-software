@@ -1,4 +1,11 @@
-.contact_options {
+.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -13,6 +20,24 @@
     transition: var(--transition);
 }
 
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+/* ================= FORM ==================== */
+
 form {
     display: flex;
     flex-direction: column;
@@ -26,5 +51,5 @@ input, textarea {
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    color: #fff;
 }

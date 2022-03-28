@@ -1,11 +1,11 @@
 import React from 'react'
-import './Section1_Header.module.css'
+import './Section1_Header.css'
 
 function Section1_Header() {
     return (
         <header id='Section1_Header'>
             <div className="container header_container">
-                <h1>Nebulae Software Solutions</h1>
+                <h1 className='title'>Nebulae Software Solutions</h1>
                 <h3>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nisi, fugiat facere impedit ad ullam quia aspernatur nobis
