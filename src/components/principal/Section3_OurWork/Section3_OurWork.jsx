@@ -2,7 +2,7 @@ import './Section3_OurWork.css'
 
 const OurWork = () => {
   return (
-    <div className="section3-ourwork">
+    <section id='Our__Work' className="section3-ourwork">
       <div className="section3-ourwork-container">
         <div className="section3-ourwork-title">
           <h2>Our Work</h2>
@@ -84,7 +84,7 @@ const OurWork = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

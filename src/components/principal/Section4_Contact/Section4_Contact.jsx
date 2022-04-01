@@ -5,7 +5,7 @@ import './Section4_Contact.css'
 
 function Section4_Contact() {
     return (
-        <section id='Section4_Contact'>
+        <section id='Contact'>
             <h5>Get in Touch</h5>
             <h2>Contact</h2>
 

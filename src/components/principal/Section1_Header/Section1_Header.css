@@ -5,6 +5,11 @@ header {
     align-items: center;
 }
 
+.header_container {
+    text-align: center;
+    position: relative;
+}
+
 h1 {
     text-align: center;
     position: relative;
